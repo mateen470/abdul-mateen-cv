@@ -1,0 +1,291 @@
+.body {
+    margin: 0;
+    padding: 0;
+  }
+  /* HERE I PUT THE BACKGROUND IMAGE AND SET ITS PROPERTIES ACCORDING TO ALL 
+  THE BROWSERS TO MAKE THE IMAGE FIT IN THE WHOLE PAGE  */
+  html {
+    background: url(cv1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  /* THIS IS THE STYLING OF PERSONALL INFO CARD WHICH WILL DISPLAY
+  MY BASIC INFORMATION */
+  .personal_info {
+    position: fixed;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: #fff;
+    border-radius: 20px;
+    top: 70px;
+    width: 200px;
+    height: 330px;
+    padding: 95px 50px;
+    font-family: "Abril Fatface", cursive;
+  }
+  img {
+    border: 4px solid rgb(7, 7, 7);
+    border-radius: 50%;
+    margin-top: -120px;
+    margin-left: 11px;
+  }
+  .personal_info h2 {
+    animation: animate 3s ease-in-out infinite;
+  }
+  @keyframes animate {
+    0% {
+      color: white;
+    }
+    50% {
+      color: gray;
+    }
+    100% {
+      color: white;
+    }
+  }
+  #cret {
+    display: inline-block;
+    margin-left: 28px;
+    background-color: rgba(255, 255, 255, 0.808);
+    color: black;
+    border-radius: 5px;
+  }
+  #med {
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+  #med i {
+    margin: 10px;
+  }
+  #date {
+    display: flex;
+  }
+  #date i {
+    margin-top: 10px;
+  }
+  #date p {
+    margin-left: 10px;
+  }
+  #location {
+    display: flex;
+  }
+  #location i {
+    margin-top: 10px;
+  }
+  #location p {
+    margin-left: 10px;
+  }
+  #mail {
+    display: flex;
+  }
+  #mail i {
+    margin-top: 10px;
+  }
+  #mail p {
+    margin-left: 10px;
+  }
+  #number {
+    display: flex;
+  }
+  #number i {
+    margin-top: 10px;
+  }
+  #number p {
+    margin-left: 10px;
+  }
+  
+  /* THIS STYLING IS FOR THE "ABOUT ME" PORTION OF THE CV */
+  .about {
+    margin-top: 40px;
+    margin-left: 350px;
+    border-radius: 20px;
+    font-family: "Abril Fatface", cursive;
+  }
+  #aboutme {
+    display: inline-block;
+    border-radius: 20px;
+    transition-property: background-color font-size;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    background-color: rgba(255, 255, 255, 0.904);
+    font-size: 18px;
+  }
+  #aboutme:hover {
+    background-color: rgb(255, 250, 250);
+    font-size: 25px;
+  }
+  .about h2 {
+    margin-left: 20px;
+    animation: animate1 4s ease-in-out infinite;
+  }
+  @keyframes animate1 {
+    0% {
+      color: black;
+    }
+    50% {
+      color: gray;
+    }
+    100% {
+      color: black;
+    }
+  }
+  .about p {
+    margin-left: 10px;
+    font-family: "Oswald", sans-serif;
+  }
+  .skills {
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+  .skills h2 {
+    display: inline-block;
+  }
+  .skills h3 {
+    display: flex;
+    justify-content: center;
+  }
+  .web_dev {
+    display: flex;
+    margin: 10px 10px;
+  }
+  .mob_art {
+    display: flex;
+  }
+  .web {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 20px;
+    transition-property: background-color font-size color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+  }
+  .web:hover {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+  }
+  .dev {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 20px;
+    margin-left: 10px;
+    transition-property: background-color font-size color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+  }
+  .dev:hover {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+  }
+  .mob {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    transition-property: background-color font-size color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+  }
+  .mob:hover {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+  }
+  .art {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition-property: background-color font-size color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+  }
+  .art:hover {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+  }
+  .education {
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+  .education h2 {
+    display: inline-block;
+  }
+  .education li {
+    margin: 10px;
+  }
+  .education button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-family: "Abril Fatface", cursive;
+    cursor: pointer;
+  }
+  .education button:hover {
+    font-size: 30px;
+  }
+  .education p {
+    display: inline-block;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 4px solid white;
+  }
+  .dropdown_button3 {
+    margin-bottom: 20px;
+  }
+  .work {
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 20px;
+    margin-top: -10px;
+  }
+  .work h2 {
+    display: inline-block;
+  }
+  .work h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+  }
+  .work p {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -10px;
+  }
+  footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-right: -8px;
+  }
+  /* FOR FUNCTION */
+  #school {
+    display: none;
+  }
+  #college {
+    display: none;
+  }
+  #uni {
+    display: none;
+  }
+  #uni2 {
+    display: none;
+  }
+  
